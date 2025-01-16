@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 95%;
+}
+
+.screen{
+    width: 100%;
+    height: 100%;
+    border: solid 3px black;
+}
+.text{
+    position: absolute;
+    left: 20%;
+}
+
+.text2{
+    position: absolute;
+    right: 20%;
+}
+
+.temple{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+}
+.pyramid{
+    border: solid 3px black;
+}
