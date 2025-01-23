@@ -11,6 +11,7 @@ body {
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    max-height: 1600px;
 }
 
 h1 {
@@ -63,15 +64,19 @@ li strong {
 
 .tya{
     position: absolute;
-    left: 39%;
+    left: 35%;
     padding: 10px;
+}
+
+.ty{
+    padding: 10px;
+    position: absolute;
 }
 
 button{
     background-color: #ed4242;
     border-radius: 8px;
     border: 0;
-    
 }
 
 .next, .Previous, .Main{
@@ -83,11 +88,10 @@ button{
     position: fixed;
     bottom: 0;
     animation: 3s rgb infinite;
-    height: 10%;
+    height: 2%;
     width: 100%;
     text-align: center;
-    background-color: #1a1a2e;
-
+    background-color: #f1e51d;
 }
 
 
@@ -121,6 +125,9 @@ button{
     li {
         font-size: 16px;
     }
+    .footer{
+        bottom: 0;
+    }
 }
 
 /* Tablet Styles (601px to 1024px) */
@@ -145,7 +152,17 @@ button{
     .pyramid, .gardens, .zeus, .temple, .mausoleam, .colossus, .lighthouse {
         max-width: 400px;
         max-height: 400px;
-        margin: 20px;
+        margin: 20px;   
     }
-    
+    .tya, .ty{
+    flex-direction: row;
+    display: flex; 
+    left: 16%;
+    }
+    .ty{
+            top: 100%;
+        }
+        .footer{
+            height: 4%;
+        }
 }
